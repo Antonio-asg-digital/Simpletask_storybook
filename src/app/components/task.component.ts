@@ -1,4 +1,3 @@
-
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Task } from '../models/task.model';
 
@@ -46,33 +45,16 @@ import { Task } from '../models/task.model';
   `,
 })
 export default class TaskComponent {
-  /**
-   * The shape of the task object
-  */
   @Input() task?: Task;
 
-  // tslint:disable-next-line: no-output-on-prefix
-  @Output()
-  onPinTask = new EventEmitter<Event>();
+  @Output() onPinTask = new EventEmitter<string>();
+  @Output() onArchiveTask = new EventEmitter<string>();
 
-  // tslint:disable-next-line: no-output-on-prefix
-  @Output()
-  onArchiveTask = new EventEmitter<Event>();
-
-  /**
-   * @ignore
-   * Component method to trigger the onPin event
-   * @param id string
-   */
-  onPin(id: any) {
+  onPin(id: string) {
     this.onPinTask.emit(id);
   }
-  /**
-   * @ignore
-   * Component method to trigger the onArchive event
-   * @param id string
-   */
-  onArchive(id: any) {
+
+  onArchive(id: string) {
     this.onArchiveTask.emit(id);
   }
 }

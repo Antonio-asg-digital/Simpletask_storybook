@@ -1,32 +1,20 @@
-
-import type { Meta, StoryObj } from '@storybook/angular';
-
-import { argsToTemplate } from '@storybook/angular';
-
-import { action } from '@storybook/addon-actions';
-
+import { Meta, StoryObj } from '@storybook/angular';
 import TaskComponent from './task.component';
-
-export const actionsData = {
-  onPinTask: action('onPinTask'),
-  onArchiveTask: action('onArchiveTask'),
-};
+import { Task } from '../models/task.model';
 
 const meta: Meta<TaskComponent> = {
-  title: 'Task',
   component: TaskComponent,
-  excludeStories: /.*Data$/,
+  title: 'Task',
   tags: ['autodocs'],
-  render: (args: TaskComponent) => ({
+  render: (args) => ({
     props: {
       ...args,
-      onPinTask: actionsData.onPinTask,
-      onArchiveTask: actionsData.onArchiveTask,
+      onPinTask: () => {},
+      onArchiveTask: () => {},
     },
-    template: `<app-task ${argsToTemplate(args)}></app-task>`,
+    template: `<app-task [task]="task" (onPinTask)="onPinTask($event)" (onArchiveTask)="onArchiveTask($event)"></app-task>`,
   }),
 };
-
 export default meta;
 type Story = StoryObj<TaskComponent>;
 
@@ -34,17 +22,8 @@ export const Default: Story = {
   args: {
     task: {
       id: '1',
-      title: 'Test Task',
+      title: 'Task 1',
       state: 'TASK_INBOX',
-    },
-  },
-};
-
-export const Pinned: Story = {
-  args: {
-    task: {
-      ...Default.args?.task,
-      state: 'TASK_PINNED',
     },
   },
 };
@@ -52,7 +31,8 @@ export const Pinned: Story = {
 export const Archived: Story = {
   args: {
     task: {
-      ...Default.args?.task,
+      id: '2',
+      title: 'Archived Task',
       state: 'TASK_ARCHIVED',
     },
   },
