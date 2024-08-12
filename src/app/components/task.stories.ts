@@ -1,4 +1,5 @@
 import { Meta, StoryObj } from '@storybook/angular';
+import { action } from '@storybook/addon-actions';
 import TaskComponent from './task.component';
 import { Task } from '../models/task.model';
 
