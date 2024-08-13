@@ -1,0 +1,224 @@
+
+> taskbox@0.2.0 build-storybook
+> ng run taskbox:build-storybook --output-dir C:\Users\ANTONI~1\AppData\Local\Temp\chromatic--9660-BVRR7PFJ4IHL
+
+[0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m
+[48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m [0m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [48;5;255m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+[0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [48;5;255m [48;5;255m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m [0m
+
+1.1.25
+
+TypeScript version used by Compodoc : 5.4.2
+
+TypeScript version of current project : 5.2.2
+
+Node.js version : v20.16.0
+
+Operating system : Windows 10
+
+[09:50:43] No configuration file found, switching to CLI flags.
+[09:50:43] Using tsconfig file : C:\Users\AntonioMagalhaes\Projects\taskbox\.storybook\tsconfig.json
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/.storybook/preview.ts
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/favicon.ico
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/index.html
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/main.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/polyfills.ts
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/styles.css
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/app.component.css
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/app.component.html
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/app.component.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/app.module.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/environments/environment.prod.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/environments/environment.ts
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/Introduction.mdx
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/User.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/inbox-screen.component.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/pure-inbox-screen.component.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/pure-inbox-screen.stories.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/pure-task-list.component.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/pure-task-list.stories.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/task-list.component.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/task.component.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/task.module.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/task.stories.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/models/task.model.ts
+[09:50:43] Including      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/state/task.state.ts
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/font/OpenSans-Light-webfont.eot
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/font/OpenSans-Light-webfont.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/font/OpenSans-Light-webfont.ttf
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/font/OpenSans-Light-webfont.woff
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/font/OpenSans-Regular-webfont.eot
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/font/OpenSans-Regular-webfont.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/font/OpenSans-Regular-webfont.ttf
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/font/OpenSans-Regular-webfont.woff
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/icon/percolate.eot
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/icon/percolate.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/icon/percolate.ttf
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/assets/icon/percolate.woff
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/assets/code-brackets.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/assets/colors.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/assets/comments.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/assets/direction.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/assets/flow.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/assets/plugin.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/assets/repo.svg
+[09:50:43] Excluding      : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/assets/stackalt.svg
+[09:50:43] Searching package.json file
+[09:50:43] package.json file found
+[09:50:43] Processing package.json dependencies
+[09:50:43] Searching README.md, CHANGELOG.md, CONTRIBUTING.md, LICENSE.md, TODO.md files
+[09:50:43] README.md file found
+[09:50:43] Error during C:\Users\AntonioMagalhaes\Projects\taskbox\CHANGELOG read
+[09:50:43] Continuing without CHANGELOG.md file
+[09:50:43] Error during C:\Users\AntonioMagalhaes\Projects\taskbox\CONTRIBUTING read
+[09:50:43] Continuing without CONTRIBUTING.md file
+[09:50:43] LICENSE.md file found
+[09:50:43] Error during C:\Users\AntonioMagalhaes\Projects\taskbox\TODO read
+[09:50:43] Continuing without TODO.md file
+[09:50:43] Get dependencies data
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/.storybook/preview.ts
+[09:50:43] found          : preview
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/main.ts
+[09:50:43] found          : config
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/polyfills.ts
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/app.component.ts
+[09:50:43] found          : AppComponent
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/app.module.ts
+[09:50:43] found          : AppModule
+[09:50:43]                : - imports:
+[09:50:43]                : 	- BrowserModule
+[09:50:43]                : 	- TaskModule
+[09:50:43]                : 	- NgxsModule
+[09:50:43]                : 	- NgxsReduxDevtoolsPluginModule
+[09:50:43]                : 	- NgxsLoggerPluginModule
+[09:50:43]                : - declarations:
+[09:50:43]                : 	- AppComponent
+[09:50:43]                : 	- InboxScreenComponent
+[09:50:43]                : 	- PureInboxScreenComponent
+[09:50:43]                : - bootstrap:
+[09:50:43]                : 	- AppComponent
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/environments/environment.prod.ts
+[09:50:43] found          : environment
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/environments/environment.ts
+[09:50:43] found          : environment
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/User.ts
+[09:50:43] found          : User
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/inbox-screen.component.ts
+[09:50:43] found          : InboxScreenComponent
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/pure-inbox-screen.component.ts
+[09:50:43] found          : PureInboxScreenComponent
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/pure-inbox-screen.stories.ts
+[09:50:43] found          : meta
+[09:50:43] found          : Story
+[09:50:43] found          : Default
+[09:50:43] found          : Error
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/pure-task-list.component.ts
+[09:50:43] found          : PureTaskListComponent
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/pure-task-list.stories.ts
+[09:50:43] found          : meta
+[09:50:43] found          : Story
+[09:50:43] found          : Template
+[09:50:43] found          : Default
+[09:50:43] found          : WithPinnedTasks
+[09:50:43] found          : Loading
+[09:50:43] found          : Empty
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/task-list.component.ts
+[09:50:43] found          : TaskListComponent
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/task.component.ts
+[09:50:43] found          : TaskComponent
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/task.module.ts
+[09:50:43] found          : TaskModule
+[09:50:43]                : - imports:
+[09:50:43]                : 	- CommonModule
+[09:50:43]                : 	- NgxsModule
+[09:50:43]                : - exports:
+[09:50:43]                : 	- TaskComponent
+[09:50:43]                : 	- TaskListComponent
+[09:50:43]                : - declarations:
+[09:50:43]                : 	- TaskComponent
+[09:50:43]                : 	- TaskListComponent
+[09:50:43]                : 	- PureTaskListComponent
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/task.stories.ts
+[09:50:43] found          : meta
+[09:50:43] found          : Story
+[09:50:43] found          : Default
+[09:50:43] found          : Archived
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/models/task.model.ts
+[09:50:43] found          : TaskState
+[09:50:43] found          : Task
+[09:50:43] parsing        : C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/state/task.state.ts
+[09:50:43] found          : actions
+[09:50:43] found          : ArchiveTask
+[09:50:43] found          : PinTask
+[09:50:43] found          : defaultTasks
+[09:50:43] found          : TaskStateModel
+[09:50:43] found          : TasksState
+[09:50:43] -------------------
+[09:50:43] Project statistics 
+[09:50:43] - files      : 20
+[09:50:43] - module     : 2
+[09:50:43] - component  : 6
+[09:50:43] - injectable : 1
+[09:50:43] - class      : 2
+[09:50:43] - interface  : 3
+[09:50:43] -------------------
+[09:50:43] Prepare components
+[09:50:43] Prepare modules
+[09:50:43] Prepare injectables
+[09:50:43] Prepare classes
+[09:50:43] Prepare interfaces
+[09:50:43] Prepare miscellaneous
+[09:50:43] Process documentation coverage report
+[09:50:43] Generating documentation in export format json
+[09:50:43] Documentation generated in ./ in 0.456 seconds
+info => Cleaning outputDir: ..\..\..\ANTONI~1\AppData\Local\Temp\chromatic--9660-BVRR7PFJ4IHL
+
+info => Loading presets
+info => Building manager..
+info => Manager built (835 ms)
+info => Building preview..
+info Addon-docs: using MDX3
+info => Using implicit CSS loaders
+info => Using angular browser target options from "taskbox:build"
+info => Using angular project with "tsConfig:C:\Users\AntonioMagalhaes\Projects\taskbox\.storybook\tsconfig.json"
+info => Using default Webpack5 setup
+WARN C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/app.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/app.module.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/AntonioMagalhaes/Projects/taskbox/src/app/components/inbox-screen.component.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/AntonioMagalhaes/Projects/taskbox/src/environments/environment.prod.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/AntonioMagalhaes/Projects/taskbox/src/environments/environment.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/AntonioMagalhaes/Projects/taskbox/src/main.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/AntonioMagalhaes/Projects/taskbox/src/polyfills.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN C:/Users/AntonioMagalhaes/Projects/taskbox/src/stories/User.ts is part of the TypeScript compilation but it's unused.
+WARN Add only entry points to the 'files' or 'include' properties in your tsconfig.
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   170.fe996933.iframe.bundle.js (1.18 MiB)
+WARN   652.ec2f7569.iframe.bundle.js (2.43 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (2.51 MiB)
+WARN       runtime~main.2ed4a597.iframe.bundle.js
+WARN       652.ec2f7569.iframe.bundle.js
+WARN       main.2f8e224a2a7393b93339.css
+WARN       main.e4df0875.iframe.bundle.js
+WARN 
+info => Preview built (34 s)
+info => Output directory: C:\Users\ANTONI~1\AppData\Local\Temp\chromatic--9660-BVRR7PFJ4IHL
