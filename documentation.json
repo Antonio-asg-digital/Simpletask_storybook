@@ -436,7 +436,7 @@
     "components": [
         {
             "name": "AppComponent",
-            "id": "component-AppComponent-901fd0bc09860036bc47c70a2bc9e22cac45d707d2295aa92699b5470ceae13f28a44df23d26141413d8afcca3b6ef3874cbb7ce13869f5a9a044970daa90aa8",
+            "id": "component-AppComponent-188ac686e94ab1efa611339971d31b46176b62bb4d1ce19b17a1ae1ee867a76ba0d93a50fd65460fcb58926d8b722e2efd5a1c8db9f2f430b58b8a6d4d958e83",
             "file": "src/app/app.component.ts",
             "encapsulation": [],
             "entryComponents": [],
@@ -461,7 +461,7 @@
                     "type": "string",
                     "optional": false,
                     "description": "",
-                    "line": 11
+                    "line": 10
                 }
             ],
             "methodsClass": [],
@@ -474,7 +474,7 @@
             "description": "",
             "rawdescription": "\n",
             "type": "component",
-            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n template: `\r\n   <app-inbox-screen></app-inbox-screen>\r\n `,\r\n})\r\nexport class AppComponent {\r\n  title = 'taskbox';\r\n}",
+            "sourceCode": "import { Component } from '@angular/core';\r\n\r\n@Component({\r\n  selector: 'app-root',\r\n template: `\r\n   <app-inbox-screen></app-inbox-screen>\r\n `,\r\n})\r\nexport class AppComponent {\r\n  title = 'taskbox';\r\n}\r\n",
             "assetsDirs": [],
             "styleUrlsData": "",
             "stylesData": "",
@@ -951,13 +951,13 @@
     "modules": [
         {
             "name": "AppModule",
-            "id": "module-AppModule-4ace7b397ab4492152b3d0aee469a279bce81856273c035349790743d69823cdc02ae3dd0545d4f723e04814d8d7c116bc983ec1a7a8cd1a568475c6f43f27a6",
+            "id": "module-AppModule-835f4bdcb5eea91b5f86fbad415323e9254f92ec6d2999f54f4b1131157fa555aba045daf4043cdc61900fd104823c78ebd7844bcade98cf32b00bc2d72ddc17",
             "description": "",
             "deprecationMessage": "",
             "deprecated": false,
             "file": "src/app/app.module.ts",
             "methods": [],
-            "sourceCode": "\r\nimport { BrowserModule } from '@angular/platform-browser';\r\nimport { NgModule } from '@angular/core';\r\nimport { TaskModule } from './components/task.module';\r\nimport { NgxsModule } from '@ngxs/store';\r\nimport { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';\r\nimport { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';\r\n\r\nimport { environment } from '../environments/environment';\r\nimport { AppComponent } from './app.component';\r\n\r\n import InboxScreenComponent from './components/inbox-screen.component';\r\n import PureInboxScreenComponent from './components/pure-inbox-screen.component';\r\n\r\n@NgModule({\r\n declarations: [AppComponent, InboxScreenComponent, PureInboxScreenComponent],\r\n  imports: [\r\n    BrowserModule,\r\n    TaskModule,\r\n    NgxsModule.forRoot([], { developmentMode: !environment.production, }),\r\n    NgxsReduxDevtoolsPluginModule.forRoot(),\r\n    NgxsLoggerPluginModule.forRoot({ disabled: environment.production, }),\r\n  ],\r\n  providers: [],\r\n  bootstrap: [AppComponent],\r\n})\r\nexport class AppModule {}",
+            "sourceCode": "\r\nimport { BrowserModule } from '@angular/platform-browser';\r\nimport { NgModule } from '@angular/core';\r\nimport { TaskModule } from './components/task.module';\r\nimport { NgxsModule } from '@ngxs/store';\r\nimport { NgxsReduxDevtoolsPluginModule } from '@ngxs/devtools-plugin';\r\nimport { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';\r\n\r\nimport { environment } from '../environments/environment';\r\nimport { AppComponent } from './app.component';\r\n\r\n import InboxScreenComponent from './components/inbox-screen.component';\r\n import PureInboxScreenComponent from './components/pure-inbox-screen.component';\r\n\r\n@NgModule({\r\n declarations: [AppComponent, InboxScreenComponent, PureInboxScreenComponent],\r\n  imports: [\r\n    BrowserModule,\r\n    TaskModule,\r\n    NgxsModule.forRoot([], { developmentMode: !environment.production, }),\r\n    NgxsReduxDevtoolsPluginModule.forRoot(),\r\n    NgxsLoggerPluginModule.forRoot({ disabled: environment.production, }),\r\n  ],\r\n  providers: [],\r\n  bootstrap: [AppComponent],\r\n})\r\nexport class AppModule {}\r\n",
             "children": [
                 {
                     "type": "providers",

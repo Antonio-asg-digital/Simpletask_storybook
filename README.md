@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 # Simpletask_storybook
 =======
+>>>>>>> 4a5d4be39f4fa33f00285818ab14d99a28b29c14
 <p align="center">
   <a href="https://www.chromatic.com/">
     <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
@@ -97,4 +100,7 @@ If you encounter an issue with the template, we encourage you to open an issue i
 1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/angular/en/get-started/).
 2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
 3. See our official documentation at [Storybook](https://storybook.js.org/).
+<<<<<<< HEAD
+=======
 >>>>>>> 4d83dd3 (Default Storybook- simple task)
+>>>>>>> 4a5d4be39f4fa33f00285818ab14d99a28b29c14

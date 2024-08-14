@@ -8,6 +8,7 @@
   "exclude": ["../src/test.ts", "../src/**/*.spec.ts"],
   "include": [
     "../src/**/*",
+    "src/**/*.ts",
     "./preview.ts"
   ],
   "files": ["./typings.d.ts"]
