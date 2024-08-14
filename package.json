@@ -1,6 +1,6 @@
 {
   "name": "asgcomplibrary",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "type": "module",
   "description": "Poc for ASG shared component library",
   "author": "Chromatic <https://chromatic.com/>",
@@ -24,7 +24,6 @@
     "init-msw": "msw init src/",
     "chromatic": "npx chromatic --project-token=chpt_10395d2def1aeff"
   },
-  
   "dependencies": {
     "@angular/animations": "^17.0.0",
     "@angular/common": "^17.3.12",
