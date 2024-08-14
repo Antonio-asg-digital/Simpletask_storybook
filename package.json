@@ -1,6 +1,6 @@
 {
   "name": "asgcomplibrary",
-  "version": "1.0.0",
+  "version": "0.2.0",
   "type": "module",
   "description": "Poc for ASG shared component library",
   "author": "Chromatic <https://chromatic.com/>",
@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "scripts": {
+    "release": "npm version patch -m \"Release version %s\" && git push --follow-tags origin main && npm publish",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
