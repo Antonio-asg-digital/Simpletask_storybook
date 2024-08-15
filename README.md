@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 # Simpletask_storybook
 =======
->>>>>>> 4a5d4be39f4fa33f00285818ab14d99a28b29c14
 <p align="center">
   <a href="https://www.chromatic.com/">
     <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
