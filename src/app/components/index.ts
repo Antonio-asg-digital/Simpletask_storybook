@@ -1,7 +1,5 @@
 // src/components/index.ts
-import * as styles from '../../styles.css';
 
-export { styles };
 
 export * from './inbox-screen.component';
 export * from './pure-inbox-screen.component';
