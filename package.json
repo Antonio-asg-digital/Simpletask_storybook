@@ -1,6 +1,6 @@
 {
   "name": "asgcomplibrary",
-  "version": "0.1.1",
+  "version": "0.1.0",
   "type": "module",
   "description": "Poc for ASG shared component library",
   "author": "Chromatic <https://chromatic.com/>",
