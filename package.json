@@ -1,6 +1,6 @@
 {
   "name": "asgcomplibrary",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "type": "module",
   "description": "Poc for ASG shared component library",
   "author": "Chromatic <https://chromatic.com/>",
@@ -79,7 +79,8 @@
     "webpack": "^5.93.0"
   },
   "homepage": "https://github.com/chromaui/intro-storybook-angular-template#readme",
-  "main": "dist/index.js",
+  "main": "./dist/index.ts",
+  "exports": "./dist/index.ts",
   "keywords": [
     "asg",
     "component",
