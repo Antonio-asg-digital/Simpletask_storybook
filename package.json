@@ -23,7 +23,7 @@
     "init-msw": "msw init src/",
     "chromatic": "npx chromatic --project-token=chpt_10395d2def1aeff"
   },
-  "private": true,
+  
   "dependencies": {
     "@angular/animations": "^17.0.0",
     "@angular/common": "^17.3.12",
@@ -80,7 +80,7 @@
     "webpack": "^5.93.0"
   },
   "homepage": "https://github.com/chromaui/intro-storybook-angular-template#readme",
-  "main": "jest.config.js",
+  "main": "dist/index.js",
   "keywords": [
     "asg",
     "component",
