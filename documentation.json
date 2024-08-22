@@ -1090,6 +1090,16 @@
                 "defaultValue": "{\r\n stories: ['../src/app/components/**/*.stories.@(ts|mdx)'],\r\n  addons: [\r\n    '@storybook/addon-links',\r\n    '@storybook/addon-essentials',\r\n    '@storybook/addon-interactions',\r\n    '@storybook/addon-actions'\r\n  ],\r\n  framework: {\r\n    name: '@storybook/angular',\r\n    options: {},\r\n  },\r\n  docs: {\r\n    autodocs: 'tag',\r\n  },\r\n}"
             },
             {
+                "name": "config",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": ".storybook/main.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "StorybookConfig",
+                "defaultValue": "{\r\n  stories: [\"../src/**/*.mdx\", \"../src/**/*.stories.@(js|jsx|ts|tsx)\"],\r\n  addons: [\r\n    \"@storybook/addon-links\",\r\n    \"@storybook/addon-essentials\",\r\n    \"@storybook/addon-interactions\",\r\n  ],\r\n  framework: {\r\n    name: \"@storybook/angular\",\r\n    options: {},\r\n  },\r\n  docs: {\r\n    autodocs: \"tag\",\r\n  },\r\n}"
+            },
+            {
                 "name": "Default",
                 "ctype": "miscellaneous",
                 "subtype": "variable",
@@ -1355,6 +1365,18 @@
                     "defaultValue": "{\r\n stories: ['../src/app/components/**/*.stories.@(ts|mdx)'],\r\n  addons: [\r\n    '@storybook/addon-links',\r\n    '@storybook/addon-essentials',\r\n    '@storybook/addon-interactions',\r\n    '@storybook/addon-actions'\r\n  ],\r\n  framework: {\r\n    name: '@storybook/angular',\r\n    options: {},\r\n  },\r\n  docs: {\r\n    autodocs: 'tag',\r\n  },\r\n}"
                 }
             ],
+            ".storybook/main.ts": [
+                {
+                    "name": "config",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": ".storybook/main.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "StorybookConfig",
+                    "defaultValue": "{\r\n  stories: [\"../src/**/*.mdx\", \"../src/**/*.stories.@(js|jsx|ts|tsx)\"],\r\n  addons: [\r\n    \"@storybook/addon-links\",\r\n    \"@storybook/addon-essentials\",\r\n    \"@storybook/addon-interactions\",\r\n  ],\r\n  framework: {\r\n    name: \"@storybook/angular\",\r\n    options: {},\r\n  },\r\n  docs: {\r\n    autodocs: \"tag\",\r\n  },\r\n}"
+                }
+            ],
             "src/app/components/pure-inbox-screen.stories.ts": [
                 {
                     "name": "Default",
@@ -1548,6 +1570,16 @@
         "count": 1,
         "status": "low",
         "files": [
+            {
+                "filePath": ".storybook/main.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "config",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
             {
                 "filePath": ".storybook/preview.ts",
                 "type": "variable",

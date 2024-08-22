@@ -1,15 +1,19 @@
 {
-  "extends": "../tsconfig.app.json",
+  "extends": "../tsconfig.app.json", // Check this path carefully
   "compilerOptions": {
     "types": ["node"],
-    "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true
+    "declaration": true,       // Enables the generation of .d.ts files
+     // Ensures no JavaScript files are emitted
+    "outDir": "./dist",
+    "target": "es6"
   },
-  "exclude": ["../src/test.ts", "../src/**/*.spec.ts"],
   "include": [
     "../src/**/*",
-    "src/**/*.ts",
-    "./preview.ts"
+    "src/app/components/**/*", 
+    "./**/*.ts"
   ],
-  "files": ["./typings.d.ts"]
+  "exclude": [
+    "../src/**/*.test.ts",
+    "../src/**/*.spec.ts"
+  ]
 }

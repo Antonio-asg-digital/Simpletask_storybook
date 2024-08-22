@@ -3,7 +3,10 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["node"],
+    "outDir": "./dist/types",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
@@ -11,7 +14,6 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
-    "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
@@ -36,6 +38,6 @@
     "src/app/app.component.ts"
   ],
   "include": [
-    "src/**/*.ts"
+    "src/app/components/**/*"
   ]
 }

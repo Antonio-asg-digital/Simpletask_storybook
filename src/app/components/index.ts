@@ -1,9 +1,13 @@
 // src/components/index.ts
 
 import TaskListComponent from './task-list.component';
+import InboxScreenComponent from './inbox-screen.component';
+import PureInboxScreenComponent from './pure-inbox-screen.component';
+import PureTaskListComponent from './pure-task-list.component';
+import {TaskModule} from './task.module';
 
 
-export {TaskListComponent};
+export {TaskListComponent, InboxScreenComponent, PureInboxScreenComponent, PureTaskListComponent};
 
 // Add more components as needed
 
