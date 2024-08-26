@@ -16,7 +16,7 @@
     "ng": "ng",
     "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist",
     "start": "ng serve",
-    "build": "ng-packagr -p ./app/component-lib/package.json",
+    "build": "ng-packagr -p ./",
     "watch": "ng build --watch --configuration development",
     "test": "jest --no-cache",
     "storybook": "ng run taskbox:storybook",
